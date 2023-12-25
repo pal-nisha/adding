@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="bootstrap4.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script>
+            $(function(){
+                $('[data-bs-toggle="tooltip]').tooltip();
+            });
+            $(function(){
+                $('[data-bs-toggle="popover]').popover();
+            });
+            
+        </script>
+        
+        </script>
+    </head>
+    <body>
+       <h1 class="border-2 border col-4">simple badge <span class="badge bg-danger">!*</span></h1>
+       <h2 class="border-2 border col-4">simple badge <span class="badge bg-danger rounded-circle">!*</span></h2>
+       <h2 class="border-2 border col-4">simple badge <span class="badge bg-danger rounded-pill">!*</span></h2>
+        <button class="btn btn-primary">Light</span>notification <span class="badge text-bg-light rounded-pill">+5</span></button>
+        <button class="btn btn-primary position-relative">inbox
+          <span class="position-absolute top-0 start-100 badge translate-middle rounded-pill bg-danger " >+5</span>
+        </button>
+         <br><br>
+        <button class="btn btn-primary position-relative">inbox
+            <span class="position-absolute top-0 start-100  translate-middle  p-2 border border-light rounded-pill bg-danger " ></span>
+          </button>
+
+          <h1>progress bar</h1> 
+          <div>
+           <div class="progress col-4 m-3">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 25%;">  </div>
+           </div>
+
+          
+           <div class="progress col-4 m-3">
+            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 40%;"> 40% </div>
+            <div class="progress-bar bg-primary border border-danger border-2 " style="width: 30%;"> 50% </div>
+           </div>
+          </div>
+
+          <h1>spinners</h1>
+          <div class="d-flex m-2 border border-dark bg-secondary col-4 text-light"><div class="spinner-border text-light d-flex"></div>&nbsp; loading...</div>
+          <div class="d-flex m-2 border border-dark bg-secondary col-4 text-light"><div class="spinner-grow text-light d-flex"></div>&nbsp; loading...</div>
+
+          <h1>tooltip plugin </h1>
+        <div>
+            <button class="btn btn-primary" title="here is the tooltip" data-bs-target="tooltip" data-bs-placement="top">tooltip</button>
+        </div>
+  
+        <h1>poopver plugin </h1>
+        <div>
+            <button class="btn btn-primary" title="here is the popover" data-bs-target="popover" data-bs-placement="top">popover</button>    
+        </div>
+
+        <h1>alert and dismiss button</h1>
+        <div class="alert alert-danger">
+            <div class="container">
+                <div class="row">
+                    <div class="col-11  border border-danger">alert message</div>
+                    <div class="col-1  "><button class="close btn btn-secondary" data-dismiss="alert ">close</button></div>
+                    <div class="col-8  border border-danger"><h1>alert !</h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sint nihil reiciendis voluptates natus. Dolor exercitationem nobis voluptates alias laboriosam.</div>
+                    <div class="col-4  border border-danger">
+                        <li>home</li>
+                        <li>alert</li>
+                        <li>about us</li>
+                        <li>contact us</li>
+                        </div>
+                    <div class="col-12  border border-danger">check your E-mail for alert</div>
+                   
+              </div>
+            </div>
+        </div>
+        
